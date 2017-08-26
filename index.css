@@ -1,5 +1,6 @@
 body {
 background:lightgray;
 font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
 }
 
