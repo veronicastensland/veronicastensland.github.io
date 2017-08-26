@@ -70,3 +70,42 @@ img {
     background:deeppink;
 }
 
+/* Amandas CSS-animation */
+.loading {
+  height: 200px;
+  width: 200px;
+  background-color: coral;
+  animation: squareToCircle 2s 1s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+  position: absolute !important;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  outline: 1px solid transparent;
+}
+
+@keyframes squareToCircle {
+  0% {
+    border-radius: 0 0 0 0;
+    background-color: coral;
+    transform:rotate(0deg);
+  }
+  25% {
+    border-radius: 50% 0 0 0;
+    background-color: darksalmon;
+    transform:rotate(45deg);
+  }
+  50% {
+    border-radius: 50% 50% 0 0;
+    background-color: indianred;
+    transform:rotate(90deg);
+  }
+  75% {
+    border-radius: 50% 50% 50% 0;
+    background-color: lightcoral;
+    transform:rotate(135deg);
+  }
+  100% {
+    border-radius: 50%;
+    background-color: darksalmon;
+    transform:rotate(180deg);
+  }
+}
