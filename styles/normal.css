@@ -1,0 +1,48 @@
+@media (min-width: 400px) {
+    
+    .container {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    nav ul {
+        display: flex;
+    }
+
+    nav .logo {
+        margin: 13px auto;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 6.5rem 1fr;
+    }
+    
+    main p {
+        overflow: hidden;
+        margin-right: 26px;
+    }
+    
+    main .rounded {
+        border-radius: 50%;
+        display: block;
+        border: 13px solid white;
+        background-image: url('http://thecatapi.com/api/images/get?format=src&type=gif');
+        background-position: center;
+        background-size: cover;
+        width: 30vw;
+        height: 30vw;
+        margin: 0 auto;
+    }
+    main img {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+        border-radius: 30px;
+    }
+
+}
+
+@media (min-width: 600px) {
+    
+}
