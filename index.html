@@ -1,37 +1,70 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css">
-        <title>Responsiv webbsida</title>
-        <link rel="stylesheet" href="styles/default.css"/>
-        <link rel="stylesheet" href="styles/mobile.css"/>
-        <link rel="stylesheet" href="styles/normal.css"/>
-        <link rel="stylesheet" href="styles/wide.css"/>
-    </head>
-    <body>
-        <div class="container">
-        
-            <nav>
-                <ul>
-                    <li>NAV LINK 1</li>
-                    <li>NAV LINK 2</li>
-                    <li>NAV LINK 3</li>
-                    <li>NAV LINK 4</li>
-                </ul>
-                <img class="logo" src="images/logo2.png">
-                <div class="slogan"><b>Motto ipsum dolor sit</b></div>
-                
-            </nav>
-            
-            <main>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-                
-                <div class="rounded"></div>
-                <img src="images/TussiFishEye.jpg">
-            </main>
-            
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veronica Stensland</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Veronica Stensland</h1>
+        <p>Backend developer | Fullstack developer | UX-enthusiast</p>
+        <nav>
+            <a href="#skills">TECHNICAL SKILLS</a>
+            <a href="#experience">WORK EXPERIENCE</a>
+            <a href="#education">EDUCATION</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <p>Software engineer with more than three years of experience specializing in transitioning monolithic applications to modular standalone services, cloud database migrations in AWS, and designing scalable data solutions. Proficient in developing robust backend systems, user-friendly frontends, and comprehensive documentation. Adept at collaborating in Agile teams and driving projects from requirements to delivery.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical skills</h2>
+        <dl class="skills-list">
+            <dt><b>Programming Languages & Frameworks:</b></dt>
+            <dd>C#, .NET, LINQ, REST API design, ASP.NET, Entity Framework, SQL, Java, HTML, CSS, JavaScript, React, Razor</dd>
+            <dt><b>DevOps & Tools:</b></dt>
+            <dd>Docker, Postman, RabbitMQ, Octopus Deploy, Kibana monitoring, SQL Server Management Studio, PostgreSQL, CI/CD</dd>
+            <dt><b>Cloud Platforms:</b></dt>
+            <dd>AWS (database migrations, S3, DynamoDB)</dd>
+        </dl>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <dl class="experience-list">
+            <dt><b>Scania, Södertälje | Software Developer</b></dt>
+            <dt><b>June 2021 - November 2024</b></dt>
+            <dd>Designed  and developed PDF services, API:s and internal tools.</dd>
+        </dl>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <dl class="project-list">
+            <dt><b>Stockholm University | 2018 - 2021</b></dt>
+            <dd>Computer Game Development</dd>
+            <br>
+            <dt><b>Malmö University | 2017 - 2018</b></dt>
+            <dd>Media Production and Process Design</dd>
+        </dl>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact">
+            <p><a href="mailto:veronica.e.stensland@gmail.com">veronica.e.stensland@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/veronicastensland" target="_blank">LinkedIn</a></p>
         </div>
-    </body>
+    </section>
+
+    <footer>
+        <p>© 2025 Veronica Stensland</p>
+    </footer>
+</body>
 </html>
